@@ -17,6 +17,6 @@ biome.json
 
 ```json
 {
-  "extends": "@karasushin/biome-config"
+  "extends": ["@karasushin/biome-config"]
 }
 ```
