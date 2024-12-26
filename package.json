@@ -1,7 +1,7 @@
 {
   "name": "@karasushin/biome-config",
   "description": "Biome configuration preset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "biome.js",
     "linter"
