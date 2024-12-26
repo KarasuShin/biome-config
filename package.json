@@ -1,0 +1,29 @@
+{
+  "name": "@karasushin/biome-config",
+  "description": "Biome configuration preset",
+  "version": "1.0.0",
+  "keywords": [
+    "biome.js",
+    "linter"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/KarasuShin/biome-config#readme",
+  "bugs": {
+    "url": "https://github.com/KarasuShin/biome-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarasuShin/biome-config.git"
+  },
+  "author": {
+    "name": "Karasu",
+    "email": "karasu.shing@gmail.com",
+    "url": "https://github.com/karasushin"
+  },
+  "files": [
+    "base.json"
+  ],
+  "exports": {
+    ".": "./base.json"
+  }
+}

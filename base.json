@@ -1,0 +1,67 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "defaultBranch": "master",
+    "useIgnoreFile": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "a11y": {
+        "noSvgWithoutTitle": "off",
+        "useIframeTitle": "off"
+      },
+      "complexity": {
+        "noForEach": "off"
+      },
+      "correctness": {
+        "useExhaustiveDependencies": "off",
+        "noInvalidUseBeforeDeclaration": "error"
+      },
+      "style": {
+        "noNonNullAssertion": "off",
+        "noUselessElse": "off",
+        "useDefaultSwitchClause": "error",
+        "useThrowOnlyError": "error"
+      },
+      "suspicious": {
+        "useAwait": "error",
+        "useNumberToFixedDigitsArgument": "error"
+      }
+    }
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "files": {
+    "ignoreUnknown": true,
+    "ignore": [
+      "node_modules/**/*",
+      "dist/**/*",
+      "build/**/*",
+      "public/**/*",
+      "output/**/*",
+      ".vscode/**/*"
+    ]
+  },
+  "overrides": [
+    {
+      "include": ["**/*.jsx", "**/*.tsx"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noInvalidUseBeforeDeclaration": "off"
+          }
+        }
+      }
+    }
+  ]
+}
